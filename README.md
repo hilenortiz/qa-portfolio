@@ -59,7 +59,7 @@ qa-portfolio/
     └── cypress/
         ├── e2e/               # Pruebas automatizadas
         └── cypress.config.js
-
+```
 # ▶️ Cómo ver y ejecutar este proyecto
 
 ### 1. Automatización (Cypress)
@@ -103,7 +103,7 @@ Apasionada por el testing, con formación sólida en pruebas manuales, de API y 
 
 Busco mi primera oportunidad profesional en QA para sumarme a un equipo, seguir aprendiendo y aportar valor desde el primer día.
 
-📫 **Contacto:** [LinkedIn](https://linkedin.com/in/hilenortiz) • [Email](hilenortiz@gmail.com)
+📫 **Contacto:** [LinkedIn](https://linkedin.com/in/hilenortiz) • [Email](mailto:hilenortiz@gmail.com)
 
 
 
