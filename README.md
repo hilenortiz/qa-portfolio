@@ -60,25 +60,42 @@ qa-portfolio/
         ├── e2e/               # Pruebas automatizadas
         └── cypress.config.js
 
-Cómo ver y ejecutar este proyecto
-1. Automatización (Cypress)
-Tener Node.js instalado, abrir la terminal en la carpeta del proyecto y ejecutar:
+# ▶️ Cómo ver y ejecutar este proyecto
 
-bash
+### 1. Automatización (Cypress)
+
+Asegurate de tener **Node.js** instalado. Abrí la terminal en la raíz del proyecto y ejecutá:
+
+```bash
+# Instalar dependencias
 npm install
+
+# Abrir Cypress en modo interactivo (recomendado)
 npx cypress open
-(Se abrirá la ventana de Cypress para elegir el navegador y correr las pruebas visualmente).
 
-2. API Testing (Postman)
-Abrir Postman y hacer clic en Import.
+# Ejecutar las pruebas por consola (headless)
+npx cypress run
+```
 
-Seleccionar el archivo dentro de la carpeta api-testing/postman/.
+### 2. API Testing (Postman)
 
-Ejecutar las solicitudes individuales o correr la colección completa desde el botón Run collection.
+1. Abrir **Postman**.
+2. Hacer clic en **Import** (arriba a la izquierda).
+3. Seleccionar el archivo:
 
-3. Validación de Base de Datos (SQL)
-Las consultas de validación se encuentran documentadas y comentadas paso a paso dentro del archivo:
+```text
+api-testing/postman/AutomationExercise_API.postman_collection.json
+```
+
+4. Ejecutar las requests individuales o correr la suite completa desde **Run collection**.
+
+### 3. Validación de Base de Datos (SQL)
+
+Las consultas de prueba y validación se encuentran explicadas y documentadas paso a paso en:
+
+```text
 sql/validation-queries.sql
+```
 
 ## 🙋🏻‍♀️ Sobre mí
 
@@ -86,8 +103,7 @@ Apasionada por el testing, con formación sólida en pruebas manuales, de API y 
 
 Busco mi primera oportunidad profesional en QA para sumarme a un equipo, seguir aprendiendo y aportar valor desde el primer día con la misma claridad con la que documento cada hallazgo.
 
----
+📫 **Contacto:** [LinkedIn](https://linkedin.com/in/hilenortiz) • [Email](mailto:hilenortiz@gmail.com)
 
-📫 **Contacto:** [LinkedIn](https://www.linkedin.com/in/hilenortiz) • [Email](mailto:hilenortiz@gmail.com)
 
-text
+
