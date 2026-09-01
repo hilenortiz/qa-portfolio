@@ -25,7 +25,7 @@ La idea de este portfolio no fue abarcar todo el sitio, sino combinar estas áre
 
 ## 🛠️ Herramientas utilizadas
 
-* **Testing manual y documentación:** Casos de prueba, reportes de bugs, Markdown.
+* **Testing manual y documentación:** Casos de prueba, reportes de bugs.
 * **API testing:** Postman.
 * **Automatización:** Cypress, JavaScript.
 * **Base de datos:** SQL (SQLite).
