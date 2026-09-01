@@ -46,7 +46,7 @@ La idea de este portfolio no fue abarcar todo el sitio, sino combinar estas áre
 ## 📁 Estructura del repositorio
 
 ```text
-qa-portfolio-automationexercise/
+qa-portfolio/
 ├── README.md
 ├── manual-testing/
 │   ├── test-cases/            # Casos de prueba manuales
