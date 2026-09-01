@@ -99,11 +99,11 @@ sql/validation-queries.sql
 
 ## 🙋🏻‍♀️ Sobre mí
 
-Apasionada por el testing, con formación sólida en pruebas manuales, de API y automatización. Armé este portfolio buscando reflejar un enfoque de trabajo real y aplicado: con flujos completos, bugs documentados con criterio y código pensado para sostenerse por sí mismo.
+Apasionada por el testing, con formación sólida en pruebas manuales, de API y automatización. Diseñé este portfolio para mostrar mi forma de trabajar: estructurada, con atención al detalle, casos de prueba reales y bugs bien documentados.
 
-Busco mi primera oportunidad profesional en QA para sumarme a un equipo, seguir aprendiendo y aportar valor desde el primer día con la misma claridad con la que documento cada hallazgo.
+Busco mi primera oportunidad profesional en QA para sumarme a un equipo, seguir aprendiendo y aportar valor desde el primer día.
 
-📫 **Contacto:** [LinkedIn](https://linkedin.com/in/hilenortiz) • [Email](mailto:hilenortiz@gmail.com)
+📫 **Contacto:** [LinkedIn](https://linkedin.com/in/hilenortiz) • [Email](hilenortiz@gmail.com)
 
 
 
