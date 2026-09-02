@@ -11,15 +11,16 @@ Verificar que un usuario nuevo puede registrarse exitosamente en el sitio usando
 - *Name:* `Juan Test`
 - *Email:* `test@ejemplo.com`
 - *Password:* `Password123`
+- *Date of Birth:* `02/09/1990`
 - *First Name:* `Juan`
 - *Last Name:* `Test`
 - *Company:* `QA company`
 - *Address:* `Calle Falsa 123`
-- *Country:* `Argentina`
-- *State:* `Buenos Aires`
-- *City:* `CABA`
-- *Zipcode:* `1000`
-- **Mobile Number:** `1122334455`
+- *Country:* `Canada`
+- *State:* `Ontario`
+- *City:* `Ottawa`
+- *Zipcode:* `K1A 0A9`
+- *Mobile Number:* `6135551234`
 
 ## Pasos
 1. Navegar a la página principal del sitio (`https://www.automationexercise.com`).
@@ -35,10 +36,10 @@ Verificar que un usuario nuevo puede registrarse exitosamente en el sitio usando
 2. El nombre del usuario ("Juan Test") aparece en la barra de navegación, indicando sesión iniciada.
 
 ## Resultado Obtenido
-(Pendiente de ejecutar — completar con lo que efectivamente ocurrió, usando los mismos Datos de Prueba de arriba o aclarando qué valor se cambió si hizo falta)
+El registro fue exitoso. Se visualizó el mensaje "ACCOUNT CREATED!" y la confirmación del registro. En la barra de navegación no aparece el nombre del usuario ("Juan Test"), pero sí se muestra la opción "Cerrar sesión" (Logout) lo que indica que la sesión se inició correctamente.
 
 ## Evidencia
-(Pendiente - se debe agregar captura de pantalla)
+![Registro exitoso](imagenes/evidencia_TC01.png)
 
 ## Estado
 ⬜ Pendiente
