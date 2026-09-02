@@ -42,4 +42,4 @@ El registro fue exitoso. Se visualizó el mensaje "ACCOUNT CREATED!" y la confir
 ![Registro exitoso](imagenes/evidencia_TC01.png)
 
 ## Estado
-⬜ Pendiente
+⚠️ Aprobado con observaciones (ver resultado obtenido)
