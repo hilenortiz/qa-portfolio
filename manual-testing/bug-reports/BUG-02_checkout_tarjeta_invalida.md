@@ -22,8 +22,8 @@ El sistema debería mostrar un mensaje de error indicando que el número de tarj
 El sistema procesó el pago y confirmó la orden sin validar que la tarjeta utilizada tenga un formato válido. Se mostró el mensaje "Your order has been placed successfully!" y se confirmó la orden.
 
 ## Evidencia
-![Pago con tarjeta invalida](/imagenes/BUG-02_tarjnumeros.png)
-![Orden confirmada](/imagenes/BUG-02_tarjeta_pagoconfirmado.png)
+![Pago con tarjeta invalida](imagenes/BUG-02_tarjnumeros.png)
+![Orden confirmada](imagenes/BUG-02_tarjeta_pagoconfirmado.png)
 
 ## Ambiente
 - *Navegador:* Chrome 152
