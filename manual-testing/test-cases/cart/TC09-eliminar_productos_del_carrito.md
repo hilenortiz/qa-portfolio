@@ -3,6 +3,8 @@
 ## Descripción
 Verificar que el usuario puede eliminar un producto del carrito y que el listado se actualiza correctamente, sin afectar a los productos restantes.
 
+**Tipo:** Camino feliz (happy path)
+
 ## Precondiciones
 - Debe haber al menos 2 productos en el carrito.
 - No es necesario estar logueado.

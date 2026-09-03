@@ -3,6 +3,8 @@
 ## Descripción
 Verificar que un usuario registrado puede completar el proceso de compra exitosamente, visualizando el total de la orden, confirmando los datos de envío y facturación, y finalizando el pago.
 
+**Tipo:** Camino feliz (happy path)
+
 ## Precondiciones
 - El usuario debe estar registrado y logueado (ej: `test@ejemplo.com`).
 - Tener al menos un producto agregado al carrito.

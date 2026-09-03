@@ -3,6 +3,8 @@
 ## Descripción
 Verificar que el usuario puede enviar un mensaje exitosamente a través del formulario de contacto.
 
+**Tipo:** Camino feliz (happy path)
+
 ## Precondiciones
 - Tener acceso a la página principal del sitio.
 - No es necesario estar logueado.

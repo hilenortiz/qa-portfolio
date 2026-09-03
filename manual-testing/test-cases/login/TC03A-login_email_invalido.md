@@ -3,6 +3,8 @@
 ## Descripción
 Verificar que el sistema muestra un mensaje de error cuando se ingresa un email no registrado.
 
+**Tipo:** Caso negativo (negative case)
+
 ## Precondiciones
 - Tener acceso a la página de inicio de sesión.
 

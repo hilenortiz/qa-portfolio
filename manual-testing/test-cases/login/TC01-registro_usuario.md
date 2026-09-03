@@ -3,6 +3,8 @@
 ## Descripción
 Verificar que un usuario nuevo puede registrarse exitosamente en el sitio usando un correo electrónico válido y completando el formulario de datos personales y de contacto.
 
+**Tipo:** Camino feliz (happy path)
+
 ## Precondiciones
 - El usuario no debe estar registrado previamente en el sistema.
 - Tener acceso a la página de inicio de sesión/registro (`https://www.automationexercise.com/login`).

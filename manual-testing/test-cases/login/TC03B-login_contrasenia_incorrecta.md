@@ -3,6 +3,8 @@
 ## Descripción
 Verificar que el sistema muestra un mensaje de error cuando se ingresa una contraseña incorrecta para un email registrado.
 
+**Tipo:** Caso negativo (negative case)
+
 ## Precondiciones
 - El usuario debe estar registrado previamente (ej: `test@ejemplo.com`).
 - Tener acceso a la página de inicio de sesión.

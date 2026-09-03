@@ -3,6 +3,8 @@
 ## Descripción
 Verificar que el usuario pueda agregar más de un producto al carrito de compras desde el catálogo y que los artículos se listen correctamente con sus cantidades y precios individuales.
 
+**Tipo:** Camino feliz (happy path)
+
 ## Precondiciones
 - Tener acceso al sitio (`https://www.automationexercise.com`).
 - El carrito de compras debe encontrarse vacío al inicio de la prueba.

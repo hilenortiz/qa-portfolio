@@ -3,6 +3,8 @@
 ## Descripción
 Verificar que un usuario registrado pueda iniciar sesión correctamente en el sitio utilizando su email y contraseña.
 
+**Tipo:** Camino feliz (happy path)
+
 ## Precondiciones
 - El usuario debe estar registrado previamente en el sistema.
 - Tener acceso a la página de inicio de sesión (`https://www.automationexercise.com/login`).

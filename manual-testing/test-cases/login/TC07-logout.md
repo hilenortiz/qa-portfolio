@@ -3,6 +3,8 @@
 ## Descripción
 Verificar que un usuario logueado puede cerrar sesión correctamente.
 
+**Tipo:** Camino feliz (happy path)
+
 ## Precondiciones
 - El usuario debe estar logueado
 

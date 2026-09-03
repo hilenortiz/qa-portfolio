@@ -3,6 +3,8 @@
 ## Descripción
 Verificar que cualquier usuario puede visualizar la lista completa de productos y acceder a los detalles de un producto específico.
 
+**Tipo:** Camino feliz (happy path)
+
 ## Precondiciones
 - Tener acceso a la página principal.
 - No es necesario estar logueado.
