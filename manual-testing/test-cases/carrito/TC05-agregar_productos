@@ -1,0 +1,41 @@
+# TC05: Agregar múltiples productos al carrito
+
+## Descripción
+Verificar que el usuario pueda agregar más de un producto al carrito de compras desde el catálogo y que los artículos se listen correctamente con sus cantidades y precios individuales.
+
+## Precondiciones
+- Tener acceso al sitio (`https://www.automationexercise.com`).
+- El carrito de compras debe encontrarse vacío al inicio de la prueba.
+
+## Datos de Prueba
+- *Producto 1:* Blue Top (Precio: Rs. 500 | Cantidad: 1)
+- *Producto 2:* Sleeveless Dress (Precio: Rs. 1000 | Cantidad: 1)
+
+## Pasos
+1. Navegar a la página principal del sitio.
+2. Hacer clic en el botón "Products" del menú superior.
+3. Posicionar el cursor sobre el producto "Blue Top" y hacer clic en "Add to cart".
+4. Hacer clic en el botón "Continue Shopping" del modal de confirmación.
+5. Posicionar el cursor sobre el producto "Sleeveless Dress" y hacer clic en "Add to cart".
+6. En el modal de confirmación, hacer clic en "View Cart".
+
+## Resultado Esperado
+1. Se redirige al usuario a la pantalla del carrito (`/view_cart`).
+2. Se listan ambos productos de manera independiente en la tabla.
+3. Para cada ítem se visualiza correctamente:
+   - Imagen y nombre del producto ("Blue Top" y "Sleeveless Dress").
+   - Precio unitario correspondiente (Rs. 500 y Rs. 1000).
+   - Cantidad asignada (1 en ambos casos).
+   - Precio subtotal por fila calculado correctamente.
+
+> **Nota de alcance:** El monto total consolidado de la orden se valida en el flujo de Checkout (TC06), teniendo en cuenta el diseño actual de la página.
+
+## Resultado Obtenido
+Se redirigió correctamente a `https://www.automationexercise.com/view_cart` tras agregar ambos productos. La tabla listó los 2 ítems de forma independiente, cada uno con imagen, nombre, precio unitario y cantidad correctos: "Blue Top" (Rs. 500, cantidad 1, subtotal Rs. 500) y "Sleeveless Dress" (Rs. 1000, cantidad 1, subtotal Rs. 1000). No se visualiza el total en esta pantalla.
+
+## Evidencia
+![Carrito con ambos productos](imagenes/evidencia_TC05_carrito_total.png)
+![Producto agregado - Blue Top](imagenes/evidencia_TC05.png)
+
+## Estado
+✅ Aprobado

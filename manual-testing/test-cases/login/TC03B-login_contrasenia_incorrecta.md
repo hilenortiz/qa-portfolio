@@ -26,7 +26,7 @@ Verificar que el sistema muestra un mensaje de error cuando se ingresa una contr
 El sistema no inició sesión y se mostró el mensaje de error esperado: "Your email or password is incorrect!".
 
 ## Evidencia
-![Login](imagenes/evidencia_TC04B.png)
+![Login](imagenes/evidencia_TC03B.png)
 
 ## Estado
 ✅ Aprobado
