@@ -20,8 +20,8 @@ El sistema debería rechazar el campo por no cumplir una longitud mínima razona
 El sistema creó la cuenta exitosamente, aceptando `1` como valor válido para el campo Mobile Number.
 
 ## Evidencia
-![Mobile Number con un dígito](/imagenes/BUG-09_evidencia1.png)
-![Cuenta creada](/imagenes/BUG-09_evidencia2.png)
+![Mobile Number con un dígito](imagenes/BUG-09_evidencia1.png)
+![Cuenta creada](imagenes/BUG-09_evidencia2.png)
 
 ## Ambiente
 - *Navegador:* Chrome 152

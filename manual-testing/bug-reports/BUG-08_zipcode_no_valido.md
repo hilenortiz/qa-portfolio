@@ -21,8 +21,8 @@ El sistema debería rechazar el campo por no cumplir una longitud mínima razona
 El sistema creó la cuenta exitosamente, aceptando `1` como valor válido para el campo Zipcode.
 
 ## Evidencia
-![Zipcode con un dígito](/imagenes/BUG-08_zipcode_datos.png)
-![Cuenta Confirmada](/imagenes/BUG-08_cuenta_creada.png)
+![Zipcode con un dígito](imagenes/BUG-08_zipcode_datos.png)
+![Cuenta Confirmada](imagenes/BUG-08_cuenta_creada.png)
 
 ## Ambiente
 - *Navegador:* Chrome 152

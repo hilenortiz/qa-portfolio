@@ -20,8 +20,8 @@ El sistema debería mostrar un mensaje de error indicando que la contraseña es 
 (Pendiente de ejecutar)
 
 ## Evidencia
-![Contraseña debil](/imagenes/BUG-06_contrasenia_debil.png)
-![Cuenta creada](/imagenes/BUG-06_cuentaCreada.png)
+![Contraseña debil](imagenes/BUG-06_contrasenia_debil.png)
+![Cuenta creada](imagenes/BUG-06_cuentaCreada.png)
 
 ## Ambiente
 - *Navegador:* Chrome 152

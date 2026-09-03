@@ -19,8 +19,8 @@ El sistema debería mostrar un mensaje de error indicando que la cantidad no es 
 El sistema permitió ingresar la cantidad "-2" en el carrito y al continuar al checkout con el total negativo, redirigió a `https://www.automationexercise.com/payment_done/-1000`, que devolvió un error 404. La página no se encontró.
 
 ## Evidencia
-![Cantidad y total en negativo](/imagenes/BUG-03_evidencia1.png)
-![Error 404](/imagenes/BUG-03_evidencia2.png)
+![Cantidad y total en negativo](imagenes/BUG-03_evidencia1.png)
+![Error 404](imagenes/BUG-03_evidencia2.png)
 
 ## Ambiente
 - *Navegador:* Chrome 152
