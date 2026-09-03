@@ -26,11 +26,10 @@ Verificar que un usuario registrado pueda iniciar sesión correctamente en el si
 3. Se visualizan las opciones "Logout" y "Delete Account".
 
 ## Resultado Obtenido
-El login fue exitoso. Se visualizaron las opciones de "Logout" como "Delete Account" en la barra de navegación, lo que confirma que la sesión se inició correctamente. Sin embargo, el nombre del usuario no aparecen en la barra de navegación.
+El login fue exitoso. Se visualizaron las opciones de "Logout" como "Delete Account" en la barra de navegación,al igual que " Logged in as juan test" lo que confirma que la sesión se inició correctamente.
 
 ## Evidencia
 ![Login exitoso](imagenes/evidencia_TC02.png)
 
 ## Estado
-⚠️Aprobado con observaciones: 
-Login exitoso, pero el nombre del usuario no se muestra en la barra de navegación.
+✅ Aprobado

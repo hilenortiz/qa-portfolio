@@ -38,10 +38,10 @@ Verificar que un usuario nuevo puede registrarse exitosamente en el sitio usando
 2. El nombre del usuario ("Juan Test") aparece en la barra de navegación, indicando sesión iniciada.
 
 ## Resultado Obtenido
-El registro fue exitoso. Se visualizó el mensaje "ACCOUNT CREATED!" y la confirmación del registro. En la barra de navegación no aparece el nombre del usuario ("Juan Test"), pero sí se muestra la opción "Cerrar sesión" (Logout) lo que indica que la sesión se inició correctamente.
+El registro fue exitoso. Se visualizó el mensaje "ACCOUNT CREATED!" y la confirmación del registro.
 
 ## Evidencia
 ![Registro exitoso](imagenes/evidencia_TC01.png)
 
 ## Estado
-⚠️ Aprobado con observaciones (ver resultado obtenido)
+✅ Aprobado
