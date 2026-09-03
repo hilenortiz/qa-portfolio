@@ -35,11 +35,19 @@ La idea de este portfolio no fue abarcar todo el sitio, sino combinar estas áre
 
 ## 🐛 Bugs reportados
 
-| ID | Título del Bug | Severidad | Prioridad | Detalle |
-| :--- | :--- | :---: | :---: | :---: |
-| **BUG-01** | *Pendiente* | `Pendiente` | `Pendiente` | [Ver reporte](manual-testing/bug-reports/BUG-01.md) |
-| **BUG-02** | *Pendiente* | `Pendiente` | `Pendiente` | [Ver reporte](manual-testing/bug-reports/BUG-02.md) |
-| **BUG-03** | *Pendiente* | `Pendiente` | `Pendiente` | [Ver reporte](manual-testing/bug-reports/BUG-03.md) |
+| ID | Título | Severidad | Prioridad |
+| :--- | :--- | :---: | :---: |
+| **BUG-01** | Checkout acepta tarjetas vencidas | 🔴 Alta | 🔴 Alta |
+| **BUG-02** | Checkout acepta números de tarjeta inválidos | 🔴 Alta | 🔴 Alta |
+| **BUG-03** | Checkout 404 con total negativo | 🔴 Crítica | 🔴 Alta |
+| **BUG-04** | Campo cantidad sin límites | 🟡 Media | 🟡 Media |
+| **BUG-05** | Cantidad solo editable desde vista de producto | 🟡 Media | 🟡 Media |
+| **BUG-06** | Registro permite contraseñas débiles | 🔴 Alta | 🔴 Alta |
+| **BUG-07** | Registro acepta emails sin dominio válido | 🟡 Media | 🟡 Media |
+| **BUG-08** | El campo "Zipcode" acepta un solo dígito | 🟡 Media | 🟡 Media |
+| **BUG-09** | El campo "Mobile Number" acepta un solo dígito | 🟡 Media | 🟡 Media |
+
+📎 [Ver todos los reportes de bugs](manual-testing/bug-reports/)
 
 ---
 
