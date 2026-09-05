@@ -1,35 +1,36 @@
+````markdown
 # 🧪 QA Portfolio — Automation Exercise
 
-[![Cypress](https://img.shields.io/badge/Cypress-13.x-17202C?logo=cypress&logoColor=white)](#)
-[![Postman](https://img.shields.io/badge/Postman-v10-FF6C37?logo=postman&logoColor=white)](#)
+[![Cypress](https://img.shields.io/badge/Cypress-16.x-17202C?logo=cypress&logoColor=white)](#)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black)](#)
-[![SQL](https://img.shields.io/badge/SQL-SQLite-003B57?logo=sqlite&logoColor=white)](#)
+[![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)](#)
 
 ## 📋 Sobre este proyecto
 
-Proyecto de QA sobre el sitio de práctica [AutomationExercise](https://automationexercise.com), armado para mostrar cómo trabajo en las distintas etapas del testing: diseño y ejecución de casos manuales, documentación de bugs, testing de API con Postman, validación de datos con SQL, y automatización de flujos críticos con Cypress.
+Proyecto de QA sobre **Automation Exercise**, enfocado en testing manual, reporte de bugs y automatización E2E con **Cypress**.
 
-La idea de este portfolio no fue abarcar todo el sitio, sino combinar estas áreas en un proyecto claro y ordenado, con foco en poder explicar y defender cada decisión que tomé.
+A partir de los casos de prueba manuales, seleccioné y automaticé los flujos de **Login, Carrito y Checkout**. Para organizar el código utilicé **Fixtures JSON** para los datos de prueba y **Custom Commands** para reutilizar acciones comunes.
+
 
 ---
 
 ## 🎯 Alcance
+* 📝 **Testing manual:** Diseño y ejecución de casos de prueba en registro, login, catálogo, carrito y checkout.
 
-* 📝 **Testing manual:** Diseño y ejecución de 9 casos de prueba sobre registro, login, catálogo, carrito y checkout.
-* 🐛 **Bug reports:** Documentación de los bugs encontrados durante la prueba, con pasos para reproducirlos, severidad y capturas de evidencia.
-* 🔌 **API testing:** Colección en Postman contra la API del sitio, incluyendo validaciones con respuestas exitosas y de error.
-* 🗄️ **SQL:** Consultas de validación de datos para verificar que lo que se ve en la web coincida con lo registrado en la base de datos.
-* 🤖 **Automatización E2E:** Pruebas automatizadas con Cypress sobre los flujos principales.
+* 🐛 **Reporte de bugs:** Documentación detallada de incidentes con pasos de reproducción, severidad, prioridad y capturas.
+
+* 🤖 **Automatización E2E:** Automatización de flujos de Login, Carrito y Checkout con Cypress, incluyendo casos positivos, negativos y validaciones funcionales.
+
+* 📸 **Evidencias:** Capturas de pantalla de los bugs detectados y de las ejecuciones de los tests automatizados.
 
 ---
 
 ## 🛠️ Herramientas utilizadas
 
-* **Testing manual y documentación:** Casos de prueba, reportes de bugs.
-* **API testing:** Postman.
-* **Automatización:** Cypress, JavaScript.
-* **Base de datos:** SQL (SQLite).
-* **Control de versiones:** Git, GitHub.
+* **Testing manual:** Casos de prueba, reportes de bugs y evidencias.
+* **Automatización E2E:** Cypress 16+, JavaScript (ES6).
+* **Organización de los tests:** Fixtures JSON para los datos de prueba y Custom Commands (`cy.login`) para reutilizar acciones comunes.
+* **Control de versiones:** Git y GitHub.
 
 ---
 
@@ -51,26 +52,21 @@ La idea de este portfolio no fue abarcar todo el sitio, sino combinar estas áre
 
 ---
 
-## 📁 Estructura del repositorio
+## 🤖 Cobertura de Automatización (Cypress)
 
-```text
-qa-portfolio/
-├── README.md
-├── manual-testing/
-│   ├── test-cases/            # Casos de prueba manuales
-│   └── bug-reports/           # Reportes de bugs con evidencias
-├── api-testing/
-│   └── postman/               # Colección y variables de Postman
-├── sql/
-│   └── validation-queries.sql # Consultas de prueba
-└── automation/
-    └── cypress/
-        ├── e2e/               # Pruebas automatizadas
-        └── cypress.config.js
-```
-# ▶️ Cómo ver y ejecutar este proyecto
+A partir de los casos de prueba manuales, seleccioné algunos escenarios para automatizarlos con Cypress, principalmente los flujos de Login, Carrito y Checkout.
 
-### 1. Automatización (Cypress)
+| Módulo | Test Case | Tipo | Descripción |
+| :--- | :--- | :--- | :--- |
+| **Login** | TC02 | Happy Path | Login exitoso con credenciales válidas y persistencia de sesión |
+| **Login** | TC03A | Negativo | Validación de rechazo con email no registrado |
+| **Login** | TC03B | Negativo | Validación de rechazo con contraseña incorrecta |
+| **Carrito** | TC05 | Funcional | Agregado múltiple de ítems y validación de totales en tabla |
+| **Checkout** | TC06 | Happy Path (E2E) | Flujo completo: selección, checkout, validación de total (Rs. 1500) y pago |
+
+---
+
+## ▶️ Cómo ver y ejecutar este proyecto
 
 Asegurate de tener **Node.js** instalado. Abrí la terminal en la raíz del proyecto y ejecutá:
 
@@ -78,40 +74,99 @@ Asegurate de tener **Node.js** instalado. Abrí la terminal en la raíz del proy
 # Instalar dependencias
 npm install
 
-# Abrir Cypress en modo interactivo (recomendado)
+# Abrir Cypress en modo interactivo
 npx cypress open
 
-# Ejecutar las pruebas por consola (headless)
-npx cypress run
-```
+# Ejecutar la suite completa por consola en Chrome
+npx cypress run --browser chrome
+````
 
-### 2. API Testing (Postman)
+---
 
-1. Abrir **Postman**.
-2. Hacer clic en **Import** (arriba a la izquierda).
-3. Seleccionar el archivo:
+## 📊 Resultados de la Automatización
+
+✅ **5 de 5 tests pasaron sin errores (100% de ejecución exitosa en Chrome).**
+
+### Evidencias de ejecución
+
+![Ejecución completa de la suite](automation/evidence/terminalRun.png)
+
+### Evidencias por flujo
+
+#### 🛒 Checkout — TC06: Flujo completo de compra y confirmación
+
+![Evidencia Checkout](automation/evidence/checkout/checkout_execution.png)
+
+#### 📦 Carrito — TC05: Agregado múltiple y validación de totales
+
+![Evidencia Carrito](automation/evidence/cart/cart_execution.png)
+
+#### 🔑 Login — TC02, TC03A y TC03B: Autenticación
+
+![Evidencia Login](automation/evidence/login/login_execution.png)
+
+---
+
+## 📁 Estructura del repositorio
 
 ```text
-api-testing/postman/AutomationExercise_API.postman_collection.json
+qa-portfolio/
+├── README.md
+├── .gitignore
+│
+├── manual-testing/
+│   ├── test-cases/
+│   │   ├── cart/
+│   │   ├── contact/
+│   │   ├── login/
+│   │   ├── products/
+│   │   └── checkout/
+│   └── bug-reports/
+│
+├── automation/
+│   └── evidence/
+│       ├── cart/
+│       │   └── cart_execution.png
+│       ├── checkout/
+│       │   └── checkout_execution.png
+│       ├── login/
+│       │   └── login_execution.png
+│       └── terminalRun.png
+│
+├── cypress/
+│   ├── fixtures/
+│   │   ├── checkout.json
+│   │   ├── login.json
+│   │   └── products.json
+│   │
+│   ├── e2e/
+│   │   ├── cart.cy.js
+│   │   ├── checkout.cy.js
+│   │   └── login.cy.js
+│   │
+│   └── support/
+│       ├── commands.js
+│       └── e2e.js
+│
+├── cypress.config.js
+├── package.json
+└── package-lock.json
 ```
 
-4. Ejecutar las requests individuales o correr la suite completa desde **Run collection**.
+> `node_modules/` no se incluye en el repositorio, ya que las dependencias pueden instalarse mediante `npm install`.
 
-### 3. Validación de Base de Datos (SQL)
-
-Las consultas de prueba y validación se encuentran explicadas y documentadas paso a paso en:
-
-```text
-sql/validation-queries.sql
-```
+---
 
 ## 🙋🏻‍♀️ Sobre mí
 
-Apasionada por el testing, con formación sólida en pruebas manuales, de API y automatización. Diseñé este portfolio para mostrar mi forma de trabajar: estructurada, con atención al detalle, casos de prueba reales y bugs bien documentados.
+Me interesa el testing de software y el aseguramiento de la calidad, con formación práctica tanto en **pruebas manuales funcionales** como en **automatización E2E con Cypress**.
 
-Busco mi primera oportunidad profesional en QA para sumarme a un equipo, seguir aprendiendo y aportar valor desde el primer día.
+En este repositorio muestro mi forma de trabajar: **diseño de casos de prueba, documentación clara de bugs con sus evidencias y automatización de flujos seleccionados**.
 
-📫 **Contacto:** [LinkedIn](https://linkedin.com/in/hilenortiz) • [Email](mailto:hilenortiz@gmail.com)
+Busco mi primera oportunidad formal en QA para sumarme a un equipo, seguir adquiriendo experiencia práctica y aportar mis conocimientos desde el primer día.
+
+
+📫 **Contacto:** [LinkedIn](https://www.linkedin.com/in/hilenortiz) • [Email](mailto:hilenortiz@gmail.com)
 
 
 
