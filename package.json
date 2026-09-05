@@ -1,0 +1,24 @@
+{
+  "name": "qa-portfolio",
+  "version": "1.0.0",
+  "description": "[![Cypress](https://img.shields.io/badge/Cypress-13.x-17202C?logo=cypress&logoColor=white)](#)\r [![Postman](https://img.shields.io/badge/Postman-v10-FF6C37?logo=postman&logoColor=white)](#)\r [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black)](#)\r [![SQL](https://img.shields.io/badge/SQL-SQLite-003B57?logo=sqlite&logoColor=white)](#)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hilenortiz/qa-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hilenortiz/qa-portfolio/issues"
+  },
+  "homepage": "https://github.com/hilenortiz/qa-portfolio#readme",
+  "devDependencies": {
+    "cypress": "^16.0.0"
+  }
+}

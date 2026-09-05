@@ -1,0 +1,11 @@
+{
+"comentario": "Compra de prueba para validar el flujo de checkout.",
+"totalEsperado": "Rs. 1500",
+"pago": {
+    "nombreTitular": "Juan Test",
+    "numeroTarjeta": "1234567890123456",
+    "cvc": "123",
+    "mesExpiracion": "12",
+    "anioExpiracion": "2030"
+}
+}

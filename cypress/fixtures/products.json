@@ -1,0 +1,14 @@
+{
+"primerProducto": {
+    "nombre": "Blue Top",
+    "precio": "Rs. 500",
+    "cantidad": "1",
+    "total": "Rs. 500"
+},
+"segundoProducto": {
+    "nombre": "Sleeveless Dress",
+    "precio": "Rs. 1000",
+    "cantidad": "1",
+    "total": "Rs. 1000"
+}
+}
