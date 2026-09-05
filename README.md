@@ -1,4 +1,3 @@
-````markdown
 # 🧪 QA Portfolio — Automation Exercise
 
 [![Cypress](https://img.shields.io/badge/Cypress-16.x-17202C?logo=cypress&logoColor=white)](#)
