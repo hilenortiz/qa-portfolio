@@ -6,10 +6,9 @@
 
 ## 📋 Sobre este proyecto
 
-Proyecto de QA sobre **Automation Exercise**, enfocado en testing manual, reporte de bugs y automatización E2E con **Cypress**.
+Este proyecto de QA fue desarrollado sobre el sitio de práctica *Automation Exercise*, y cubre el ciclo completo de testing: Diseño y ejecución de casos de prueba manuales, reporte de bugs y automatización end-to-end (E2E) con Cypress.
 
-A partir de los casos de prueba manuales, seleccioné y automaticé los flujos de **Login, Carrito y Checkout**. Para organizar el código utilicé **Fixtures JSON** para los datos de prueba y **Custom Commands** para reutilizar acciones comunes.
-
+El objetivo fue simular el trabajo de un QA dentro de un equipo real. Para ello, primero diseñé y ejecuté los casos de prueba de forma manual, documenté los bugs hallados y luego seleccioné y automaticé los flujos esenciales (Login, Carrito y Checkout). Para mantener el código organizado, usé Fixtures JSON para los datos de prueba y Custom Commands para reutilizar acciones comunes.
 
 ---
 
