@@ -157,14 +157,12 @@ qa-portfolio/
 
 ## 🙋🏻‍♀️ Sobre mí
 
-Me interesa el testing de software y el aseguramiento de la calidad, con formación práctica tanto en **pruebas manuales funcionales** como en **automatización E2E con Cypress**.
+Me interesa el testing de software, con formación práctica en **pruebas manuales**, **reporte de bugs** y **automatización E2E con Cypress**.
 
-En este repositorio muestro mi forma de trabajar: **diseño de casos de prueba, documentación clara de bugs con sus evidencias y automatización de flujos seleccionados**.
+Este repositorio es la primera parte de mi portfolio de QA. La segunda está enfocada en API Testing y validación de datos con SQL: [backend-testing](../backend-testing).
 
-Busco mi primera oportunidad formal en QA para sumarme a un equipo, seguir adquiriendo experiencia práctica y aportar mis conocimientos desde el primer día.
-
+Estoy buscando mi primera oportunidad formal en QA, con ganas de seguir aprendiendo dentro de un equipo real.
 
 📫 **Contacto:** [LinkedIn](https://www.linkedin.com/in/hilenortiz) • [Email](mailto:hilenortiz@gmail.com)
-
 
 
