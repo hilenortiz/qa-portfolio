@@ -1,4 +1,4 @@
-# 🧪 QA Portfolio — Automation Exercise
+# QA Portfolio — Automation Exercise
 
 [![Cypress](https://img.shields.io/badge/Cypress-16.x-17202C?logo=cypress&logoColor=white)](#)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black)](#)
