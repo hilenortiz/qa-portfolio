@@ -122,7 +122,7 @@ qa-portfolio/
 │   └── bug-reports/
 │
 ├── automation/
-│   └── evidence/
+│   └── evidencia/
 │       ├── cart/
 │       │   └── cart_execution.png
 │       ├── checkout/
