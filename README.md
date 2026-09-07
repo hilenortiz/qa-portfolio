@@ -83,26 +83,25 @@ npx cypress run --browser chrome
 ---
 
 ## 📊 Resultados de la Automatización
-
 ✅ **5 de 5 tests pasaron sin errores (100% de ejecución exitosa en Chrome).**
 
-### Evidencias de ejecución
+### Evidencia de la ejecución completa
 
-![Ejecución completa de la suite](automation/evidence/terminalRun.png)
+![Ejecución completa de los tests](automation/evidencia/terminalRun.png)
 
 ### Evidencias por flujo
 
 #### 🛒 Checkout — TC06: Flujo completo de compra y confirmación
 
-![Evidencia Checkout](automation/evidence/checkout/checkout_execution.png)
+![Evidencia Checkout](automation/evidencia/checkout/checkout_execution.png)
 
 #### 📦 Carrito — TC05: Agregado múltiple y validación de totales
 
-![Evidencia Carrito](automation/evidence/cart/cart_execution.png)
+![Evidencia Carrito](automation/evidencia/cart/cart_execution.png)
 
 #### 🔑 Login — TC02, TC03A y TC03B: Autenticación
 
-![Evidencia Login](automation/evidence/login/login_execution.png)
+![Evidencia Login](automation/evidencia/login/login_execution.png)
 
 ---
 
