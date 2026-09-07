@@ -102,7 +102,7 @@ npx cypress run --browser chrome
 
 #### 🔑 Login — TC02, TC03A y TC03B: Autenticación
 
-![Evidencia Login](automation/evidencia/login/login_execution.png)
+![Evidencia Login](./automation/evidencia/login/login_execution.png)
 
 ---
 
