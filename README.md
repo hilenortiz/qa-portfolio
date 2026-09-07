@@ -83,6 +83,7 @@ npx cypress run --browser chrome
 ---
 
 ## 📊 Resultados de la Automatización
+
 ✅ **5 de 5 tests pasaron sin errores (100% de ejecución exitosa en Chrome).**
 
 ### Evidencia de la ejecución completa
