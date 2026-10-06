@@ -3,6 +3,7 @@
 [![Cypress](https://img.shields.io/badge/Cypress-16.x-17202C?logo=cypress&logoColor=white)](#)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black)](#)
 [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)](#)
+[![Jira](https://img.shields.io/badge/Jira-0052CC?logo=jira&logoColor=white)](#)
 
 ## 📋 Sobre este proyecto
 
@@ -64,7 +65,7 @@ Para simular un entorno ágil real de equipo, se gestionó un sprint activo de 2
 ### Detalle de Defecto Reportado en Jira
 ![Detalle de Bug en Jira](manual-testing/bug-reports/imagenes/jira-bug01.png)
 
-Nota: Se muestra el ticket `SCRUM-5` (BUG-01) a modo representativo del estándar de carga utilizado para los defectos del sprint.
+> <sub>**Nota**: Se muestra el ticket `SCRUM-5` (BUG-01) a modo representativo del estándar de carga utilizado para los defectos del sprint.</sub>
 ---
 
 ## 🤖 Cobertura de Automatización (Cypress)
