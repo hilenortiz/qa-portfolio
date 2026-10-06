@@ -50,6 +50,23 @@ El objetivo fue simular el trabajo de un QA dentro de un equipo real. Para ello,
 
 ---
 
+## 📋 Gestión del Proyecto en Jira (Metodología Scrum)
+
+Para simular un entorno ágil real de equipo, se gestionó un sprint activo de 2 semanas en *Jira Software*, garantizando la trazabilidad entre requerimientos (HU), casos de prueba y ciclo de vida de los defectos:
+
+* *Estructura del Sprint:* Historias de Usuario con Criterios de Aceptación y Bugs vinculados directamente a sus requerimientos.
+* *Workflow aplicado:* `To Do` ➔ `In Progress` ➔ `In Review / QA` ➔ `Done`, asegurando la etapa de re-testeo y verificación por parte de QA antes del cierre definitivo.
+* *Trazabilidad:* Cada defecto reportado incluye pasos de reproducción detallados, severidad, prioridad y evidencia adjunta.
+
+### Vista del Tablero Scrum
+![Tablero Jira Sprint](manual-testing/bug-reports/imagenes/jira-portfolio.png)
+
+### Detalle de Defecto Reportado en Jira
+![Detalle de Bug en Jira](manual-testing/bug-reports/imagenes/jira-bug01.png)
+
+Nota: Se muestra el ticket `SCRUM-5` (BUG-01) a modo representativo del estándar de carga utilizado para los defectos del sprint.
+---
+
 ## 🤖 Cobertura de Automatización (Cypress)
 
 A partir de los casos de prueba manuales, seleccioné algunos escenarios para automatizarlos con Cypress, principalmente los flujos de Login, Carrito y Checkout.
